@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio </title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+integrity="sha512-ymdTQyUk0UfVv71LHB/INBdluI7qg0WKX5Wy9DZNsYcliOVveSy42TBPcgbhm/RSsIHLj+3YlAfDL+/WgBMaIA=="
+crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+integrity="sha512-auFYU/67J4exjspDmd+Jbt7f4oqE26GbpY2VJZaBgWsLll1NwQ+NPiU2HehCZjBqjlr0T8/NS0SWPwkU2MURKw=="
+crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link id="pagestyle"  rel="stylesheet" href="./personal_style.css">
+
+<!--Google fonts-->
+<link href='https://fonts.googleapis.com/css?family=Press Start 2P' rel='stylesheet'>
+</head>
+
+<body>
+
+<!-- Navigation bar start -->
+<header>
+<div class="ghost"><img class="ghost_boo" src="./img/ghost.png" alt="ghost"></div>
+<div class="kiki_witch"><img class="kiki" src="./img/kiki.png" alt="kiki"></div>
+
+<!-- cv, dark mode, hamburger in header -->
+<div class="btn-group ">
+
+<div class="resume"><a href="resume.pdf"><img class="cv" src="./img/resume.png" alt="cv"></a></div>
+<div class="dark_light_mode" >     
+<button id="light"  onclick="swapStyleSheet('personal_style.css')"><i class="far fa-sun"></i></button>
+<button id="dark"  onclick="swapStyleSheet('dark_style.css')"><i class="far fa-moon"></i></button>
+</div>
+<button class="nav-toggle" aria-label="toggle navigation">
+<img class="hamburger"  src="./img/burger.png" alt="hamburger">
+</button>
+
+</div>
+<!-- btn group END -->
+
+<!-- Navigation bar -->
+<nav class="nav">
+<ul class="nav__list">
+<li class="nav__item nav__home"><a href="#home" class="nav__link">Home</a></li>
+<li class="nav__item nav__services"><a href="#services" class="nav__link">My services</a></li>
+<li class="nav__item nav__about-me"><a href="#about" class="nav__link">About me</a></li>
+<li class="nav__item nav__my-work" ><a href="#work" class="nav__link">My work</a></li>
+<li class="nav__item nav__exit"><a href="./index.html" class="nav__link">Exit</a></li>
+</ul>
+</nav>
+</header>
+<!-- Navigation bar END -->
+
+<!-- Intro -->
+
+<section class="intro" id="home"> 
+<div class="intro__container">
+<img src="./img/me.png" class="intro__img" alt="portfolio_logo">
+<div class="bg__color">
+<h2 class="section__title section__title--intro">
+Hi, I am  Karyna<br><br>I am studying software development in Omnia. 
+<br>Currently I am looking for a chance to 
+improve my skills in practice</h2>
+</div>
+</div>
+</section>
+
+<!-- Services -->
+<section class="my-services" id="services"> 
+<div class="bg__color">                               
+<h2 class="section__title section__title--services">My skills and interests</h2>
+<div class="services">
+ 
+<!-- PROGRAMING SKILLS -->
+<div class="service">
+<h3>My skills</h3>
+<ul class="skills_list">
+<li class="list__skills--interests skills_list--item1"><p>HTML</p</li>  
+<li class="list__skills--interests skills_list--item2"><p>CSS</p</li>
+<li class="list__skills--interests skills_list--item3"><p>PHP</p></li>
+<li class="list__skills--interests skills_list--item4"><p>SQL</p></li>  
+<li class="list__skills--interests skills_list--item5"><p>Java</p></li>
+</ul>
+</div>
+
+<!-- Service closed -->
+<div class="service">
+<h3>I study now </h3>
+<ul class="studynow_list">
+<li class="list__skills--interests studynow_list--item1"><p>Javasript</p></li>
+<li class="list__skills--interests studynow_list--item2"><p>Wordpress</p></li>
+<li class="list__skills--interests studynow_list--item3"><p>C++</p></li>
+<li class="list__skills--interests studynow_list--item4"><p>C#</p></li>
+</ul>
+</div>
+
+<!-- Service closed -->
+<div class="service">
+<h3>I like</h3>
+<ul class="myhobby_list">
+<li class="list__skills--interests myhobby_list--item1"><p>Video games</p></li>
+<li class="list__skills--interests myhobby_list--item2"><p>Hiking</p></li>
+<li class="list__skills--interests myhobby_list--item3"><p>Painting</p></li>
+<li class="list__skills--interests myhobby_list--item4"><p>Tasting Beer</p></li>
+<li class="list__skills--interests myhobby_list--item5"><p>Rock Festivals</p></li>
+</ul>
+</div>
+
+<!-- Service closed -->
+</div>
+</div>
+<a href="#work" class="btn">My work</a>
+</section>
+
+<!-- About me -->
+<section class="about-me" id="about">
+   
+<div class="bg__color">
+<h2 class="section__title section__title--about">Who I am</h2>
+
+<div class="about-me__body">
+<p>I started my work career as an English teacher.
+It was pleasure to teach children and see their success. 
+Sometimes there were stressful and hard days but my energetic students always cheered me up. 
+<br><br>
+I had to change my job because I moved to another city. 
+I worked as a scientific consultant and had several duties. 
+In general, I helped students and sometimes teachers to fill their knowledge gaps. 
+<br><br>
+Eventually I moved to Finland and faced with the necessity to decide what to do next. 
+I got an opportunity to study software development in Omnia.
+<br>
+I was always interested in video games and dreamed about being involved in the process of creating them.
+Programming to me was similar to magic. 
+<br><br> 
+I opened for myself the world of coding in Omnia. I started my path there from zero previous knowledge 
+of IT field. 
+<br><br>
+Now I feel I have achieved the level where I can show what I can create and 
+I still want to learn a lot of new things.  
+</p>
+
+</div>
+</div>
+<img src="./img/me_pixel.png" class="about-me__img" alt="portfolio_logo">
+</section>
+
+<!-- My work -->
+<section class="my-work" id="work" >
+<div class="bg__color">
+<h2 class="section__title section__title--work">My work</h2></div>
+
+<div class="portfolio">
+<!-- Portfolio item 1-->
+<div class="portfolio__item">
+<img src="./img/project_one.png" class="portfolio__img" alt="portfolio_logo">
+<div class="item_description">
+<h3>Commercial site</h3>   
+<p>The website is for reserving escape rooms. There you can find additional info and price of service</p> 
+<a class="github__link" href="https://github.com/KarynaMisnik/e-commerce-escape-room-project"><i class="fab fa-brands fa-github-alt"></i> </a>
+</div>
+</div>
+
+<!-- Portfolio item 2-->
+<div class="portfolio__item">
+<img src="./img/calculator.png" class="portfolio__img" alt="portfolio_logo">
+<div class="item_description">
+<h3>Calculator</h3>
+<p>Simple calculator to do calculations of two numbers. Also you can find velocity, time and distance</p>
+<a class="github__link" href="https://github.com/KarynaMisnik/simple_calculator"><i
+class="fab fa-brands fa-github-alt"></i> </a>
+</div>
+</div>
+
+<!-- Portfolio item 3-->
+<div class="portfolio__item">
+<img src="./img/game.png" class="portfolio__img" alt="portfolio_logo">
+<div class="item_description">
+<h3>Tic-Tac-Toe</h3>
+<p>Classic tic-tac-toe game. It is a small game which you can play with a friend</p>
+<a class="github__link" href="https://github.com/KarynaMisnik/small_tic-tac-toe_game"><i class=" fab fa-brands fa-github-alt"></i> </a>
+</div>
+</div>
+
+<!-- Portfolio item 4-->
+<div class="portfolio__item">
+<img src="./img/magic8ball.png" class="portfolio__img" alt="portfolio_logo">
+<div class="item_description">
+<h3>Crystal ball</h3>
+<p>If you've watched "The Interstate 60" you know what the magic ball does. Just touch it and make hard decision easier</p>
+<a class="github__link" href="https://github.com/KarynaMisnik/magic_ball_interstate_60"><i class=" fab fa-brands fa-github-alt"></i> </a>
+</div>
+</div>
+
+<!-- Portfolio item 5-->
+<div class="portfolio__item">
+<img src="./img/login-index.png" alt="portfolio_logo" class="portfolio__img">
+<div class="item_description">
+<h3>Loginform</h3>
+<p>Simple form checks if a user has valid id and password, sends messages if not. 
+My first work with Java Swing</p>
+<a class="github__link" href="https://github.com/KarynaMisnik/Login"><i class=" fab fa-brands fa-github-alt"></i> </a>
+</div>
+</div>
+
+<!-- Portfolio item 6-->
+<div class="portfolio__item">
+<img src="./img/website.png" alt="portfolio_logo" class="portfolio__img">
+<div class="item_description">
+<h3>My website</h3>
+<p>I created this website by myself. The source code and materials are on my Github profile  </p>
+<a class="github__link" href="https://github.com/KarynaMisnik/website"><i class=" fab fa-brands fa-github-alt"></i> </a>
+</div>
+</div>
+</div> <!-- class="portfolio" END -->
+<a href="#home" class="btn">Home</a>
+</section>
+
+
+<!-- Footer -->
+
+<footer class="footer">
+
+<div class="footer__all--contacts">
+
+<div class="contact--items">
+<img class="my__speech--bubble" src="./img/speech_bubble.png" alt="speech bubble">
+<div class="my_contacts">
+<p id="personal_email"></p>
+<ul class="social-list">
+<li class="social-list__item"><a class="social-list__link" href="https://github.com/KarynaMisnik"><img class="social_media" src="./img/githublogo.png" alt="github"></a></li>
+<li class="social-list__item"><a class="social-list__link" href="https://codepen.io/karynamisnik"><img class="social_media" src="./img/codepenlogo.png" alt="codepen"></a></li>
+<li class="social-list__item"><a class="social-list__link" href="https://www.linkedin.com/in/karyna-misnik-542945247/"><img class="social_media" src="./img/linkdn.png" alt="linkedin"></a></li>
+<li class="social-list__item"><a class="social-list__link" href="./resume.pdf"><img class="social_media" src="./img/resume.png" alt="cv"></a></li>
+</ul>
+</div>
+</div>
+</footer>
+
+<script src="./functionality.js"></script>
+</body>
+</html>
