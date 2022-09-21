@@ -316,7 +316,7 @@ border: 3px solid var(--clr-border-img);
 display: none;
 }
 
-@media (max-width: 400px) { /* animation is switched off for small screens */
+@media (max-width: 600px) { /* animation is switched off for small screens */
 .kiki {
 display: none; 
 }
