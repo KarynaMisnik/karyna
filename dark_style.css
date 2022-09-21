@@ -316,7 +316,7 @@ box-shadow: 5px 5px 4px rgba(191, 88, 251, 0.7);
 }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 600px) {
 /* animation is switched off for small screens */
 .ghost_boo {
 display: none;
