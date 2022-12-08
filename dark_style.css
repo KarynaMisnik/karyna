@@ -595,6 +595,10 @@ font-size: var(--fs-h2);
 cursor: url(./img/pointer.png), pointer;
 }
 
+.play-game{
+color: var(--clr-light);
+}
+
 /* Footer */
 
 .footer {
