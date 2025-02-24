@@ -26,11 +26,11 @@ body {
 }
 
 .character {
-  width: 100px;
-  height: 150px;
+  width: 128px; /* Scale up 4x (adjust based on your original size) */
+  height: 180px;
   background: url("./img/character-idle.png") no-repeat center;
   background-size: cover;
-  animation: breathing 1.5s infinite alternate ease-in-out;
+  animation: breathing 1.5s infinite ease-in-out;
   image-rendering: pixelated;
 }
 
@@ -38,8 +38,11 @@ body {
   0% {
     transform: translateY(0px);
   }
+  50% {
+    transform: translateY(-3px);
+  }
   100% {
-    transform: translateY(-5px);
+    transform: translateY(0px);
   }
 }
 
