@@ -9,20 +9,63 @@
 }
 
 body {
+  background-color: #1e1e1e;
+  text-align: center;
+  font-family: var(--ff-primary);
+  color: white;
+  overflow: hidden;
+}
+
+.game-container {
+  position: relative;
+  height: 100vh;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  flex-direction: column;
 }
 
-#btn-to-home-pg {
-  padding: 1rem;
-  width: 250px;
+.character {
+  width: 100px;
+  height: 150px;
+  background: url("./img/character-idle.png") no-repeat center;
+  background-size: cover;
+  animation: breathing 1.5s infinite alternate ease-in-out;
+  image-rendering: pixelated;
 }
 
-#btn-to-home-pg a {
-  text-decoration: none;
-  font-size: 2rem;
-  font-family: var(--ff-primary);
+@keyframes breathing {
+  0% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(-5px);
+  }
+}
+
+.start-button {
+  margin-top: 20px;
+  padding: 15px 30px;
+  font-size: 18px;
+  background-color: #ffcc00;
+  border: 3px solid #000;
+  cursor: pointer;
+  transition: 0.2s;
+  box-shadow: 4px 4px #000;
+}
+
+.start-button:hover {
+  transform: scale(1.1);
+  background-color: #ffee55;
+}
+
+.dialogue-box {
+  display: none;
+  position: absolute;
+  bottom: 150px;
+  background: #000;
+  color: white;
+  padding: 10px;
+  border: 2px solid white;
+  font-size: 14px;
 }
