@@ -1,3 +1,4 @@
 # personal website
 
-- [] take screenshot of old version
+[-] delete old projects from list;
+[-] orginize files
