@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --ff-primary: "Press Start 2P";
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#btn-to-home-pg {
+  padding: 1rem;
+  width: 250px;
+}
+
+#btn-to-home-pg a {
+  text-decoration: none;
+  font-size: 2rem;
+  font-family: var(--ff-primary);
+}
