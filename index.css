@@ -9,7 +9,7 @@
 }
 
 body {
-  background-color: #1e1e1e;
+  background-color: rgb(242, 192, 99);
   text-align: center;
   font-family: var(--ff-primary);
   color: white;
@@ -26,8 +26,8 @@ body {
 }
 
 .character {
-  width: 32px;
-  height: 32px;
+  width: 30px;
+  height: 48px;
   background: url("./img/character-sprite-copy.png") left center;
   animation: animate-sprite 0.5s steps(4) infinite;
 }
@@ -37,7 +37,7 @@ body {
     background-position: 0px;
   }
   to {
-    background-position: -128px;
+    background-position: -130px;
   } /* Moves 4 frames (each 32px wide) */
 }
 
