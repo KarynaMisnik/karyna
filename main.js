@@ -22,4 +22,5 @@ window.addEventListener("load", function () {
     window.location.href = "home.html"; // Final destination after loading
   }, 3000);
 });
+
 /* LOADING PAGE ENDS */
