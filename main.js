@@ -28,3 +28,20 @@ startButton.addEventListener("click", () => {
   }, 2000); // Wait 2 seconds before redirecting
 });
 /* MAIN PAGE ENDS */
+
+/*LOADING PAGE STARTS */
+document.getElementById("start-btn").addEventListener("click", function () {
+  document.getElementById("loading-screen").style.display = "block"; // Show loading screen
+
+  // Animate the loading bar
+  setTimeout(() => {
+    document.querySelector(".bar-fill").style.width = "100%";
+  }, 100);
+
+  // Redirect after loading completes
+  setTimeout(() => {
+    window.location.href = "next-page.html"; // Change to your actual page
+  }, 3000);
+});
+
+/*LOADING PAGE ENDS */
