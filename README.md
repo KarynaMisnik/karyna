@@ -30,7 +30,7 @@ Clone the repository:
 
 Navigate to the project directory:
 
-<code>cd web-resume</code>
+<code>cd karyna</code>
 
 Open the <code>index.html</code> file in your browser.
 
